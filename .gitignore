@@ -1,0 +1,9 @@
+# Python virtual environment
+.venv/
+venv/
+
+# VS Code settings folder
+.vscode/
+
+# Config files with secrets
+config.yaml

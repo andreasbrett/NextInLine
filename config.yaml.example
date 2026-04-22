@@ -1,0 +1,32 @@
+debug: true
+
+lastfm:
+  # create API key and secret via https://www.last.fm/de/api/authentication
+  api_key: ""
+  api_secret: ""
+
+  # your Last.fm username
+  username: ""
+
+music_assistant:
+  # your Music Assistant's URL
+  url: ""
+
+  # create a long-lived access token via http://<MASS_HOST>:8095/#/settings/profile
+  token: ""
+
+  # name of recommendation playlist that will be created
+  playlist: "Last.fm Recommendations"
+
+recommendation_strategy:
+  # number of user's top artists to use for finding recommendations
+  max_top_artists: 30
+
+  # number of similar artists to retrieve from each of the user's top artists (known artists are filtered out)
+  max_similar_artists_per_artist: 10
+
+  # number of similar artists to recommend
+  max_similar_artists_total: 50
+
+  # number of top tracks to use per similar artist
+  max_tracks_per_similar_artist: 2
