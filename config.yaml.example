@@ -1,4 +1,4 @@
-debug: true
+debug: false
 
 lastfm:
   # create API key and secret via https://www.last.fm/de/api/authentication
